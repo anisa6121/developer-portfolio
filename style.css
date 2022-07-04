@@ -11,7 +11,7 @@ h1{
 h3{
     font-size: 30px;
 }
-section{
+.flexibl-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -42,4 +42,34 @@ section{
     background-image: url(images/dream-bg.png); 
 background-repeat: no-repeat;
 background-position: right;
+}
+.orange{
+    color: orange;
+}
+.experiences{
+    width: 40%;
+ 
+
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 15px;
+
+ box-shadow: 10px 10px 40px navajowhite;
+
+
+
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+#stack-developer{
+
+    border-left:7px solid blueviolet ;
+}
+#web-developer{
+    border-left: 7px solid pink
+    ;
 }
